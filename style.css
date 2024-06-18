@@ -1,0 +1,15 @@
+<style>
+p {
+    color: black;
+
+}
+header {
+    background-color: gray;
+    color: white
+}
+section{
+    border: 2px black solid;
+    margin: 40px;
+    padding: 20px;
+}
+</style>
