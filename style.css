@@ -4,12 +4,58 @@ p {
 
 }
 header {
+    padding: 2px;
+    margin: 40px;
     background-color: gray;
-    color: white
+    color: white;
+    text-align:center;
 }
+
 section{
     border: 2px black solid;
     margin: 40px;
-    padding: 20px;
+    padding: 25px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+nav{
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: inline-block;}
+nav a:hover {
+    background-color: gray;
+}
+#habilidades ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+   
+#habilidades ul li {
+            display: inline-block;
+            padding: 5px;
+            border: 2px solid #ddd;
+            border-radius: 0px;
+            margin-right: 0px;}
+#habilidades img{
+    height: 40px;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#contacto a{
+    text-decoration: none;
+    color: #000000;
+}
+#contacto a:hover{
+    background-color: gray;
 }
 </style>
